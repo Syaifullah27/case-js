@@ -19,10 +19,8 @@ function saveBook(book) {
 }
 
 saveBook({ id: 'book-1', name: 'Book 1' });
-saveBook({ id: 'book-2', name: 'Book 2' });
 const myBooks = getBooks();
-const myBook = getBookById('book-2');
+const myBook = getBookById('book-1');
 
 console.log(myBooks);
 console.log(myBook);
-
